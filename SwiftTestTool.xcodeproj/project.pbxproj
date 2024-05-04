@@ -11,6 +11,7 @@
 		39A925362BE66553006D7290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A925352BE66553006D7290 /* ContentView.swift */; };
 		39A925382BE66555006D7290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A925372BE66555006D7290 /* Assets.xcassets */; };
 		39A9253B2BE66555006D7290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A9253A2BE66555006D7290 /* Preview Assets.xcassets */; };
+		39A925432BE66563006D7290 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A925422BE66563006D7290 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		39A925352BE66553006D7290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39A925372BE66555006D7290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A9253A2BE66555006D7290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39A925422BE66563006D7290 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				39A925332BE66553006D7290 /* SwiftTestToolApp.swift */,
 				39A925352BE66553006D7290 /* ContentView.swift */,
+				39A925412BE6655A006D7290 /* Gesture */,
 				39A925372BE66555006D7290 /* Assets.xcassets */,
 				39A925392BE66555006D7290 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				39A9253A2BE66555006D7290 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39A925412BE6655A006D7290 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				39A925422BE66563006D7290 /* HapticManager.swift */,
+			);
+			path = Gesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A925362BE66553006D7290 /* ContentView.swift in Sources */,
+				39A925432BE66563006D7290 /* HapticManager.swift in Sources */,
 				39A925342BE66553006D7290 /* SwiftTestToolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
