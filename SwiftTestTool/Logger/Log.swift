@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Log: Identifiable {
+    let id: UUID = .init()
+    let category: String
+    let timeStamp: Date = .init()
+    let message: String
+}

@@ -12,7 +12,6 @@ struct ContentView: View {
         
         NavigationStack {
             List {
-                
                 Section("UX") {
                     BaseNaviLink("Haptic") {
                         HapticView()
@@ -24,8 +23,6 @@ struct ContentView: View {
                         PracticeChartView()
                     }
                 }
-
-                
             }
         }
         .navigationTitle("Tools")

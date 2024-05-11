@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+final class Constants {
+    
+    static let APP_BUNDLE_ID = "com.iveha.SwiftTestTool"
+    
+}

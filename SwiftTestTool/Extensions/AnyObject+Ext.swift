@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+extension NSObject {
+    
+    static func getObjectName() -> String {
+        String(describing: self)
+    }
+    
+}
