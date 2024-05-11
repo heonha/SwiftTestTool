@@ -23,6 +23,12 @@ struct ContentView: View {
                         PracticeChartView()
                     }
                 }
+                
+                Section("Data") {
+                    BaseNaviLink("JSON Parser") {
+                        JSONParserView()
+                    }
+                }
             }
         }
         .navigationTitle("Tools")

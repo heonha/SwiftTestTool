@@ -22,6 +22,10 @@
 		395420022BEF731200E5B9A0 /* FileExportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395420012BEF731200E5B9A0 /* FileExportable.swift */; };
 		395420042BEF737000E5B9A0 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395420032BEF737000E5B9A0 /* Object.swift */; };
 		395420062BEF737B00E5B9A0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395420052BEF737B00E5B9A0 /* Service.swift */; };
+		3954200A2BEF746D00E5B9A0 /* JSONParserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395420092BEF746D00E5B9A0 /* JSONParserView.swift */; };
+		3954200C2BEF749300E5B9A0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3954200B2BEF749300E5B9A0 /* ViewModel.swift */; };
+		3954200E2BEF762700E5B9A0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3954200D2BEF762700E5B9A0 /* File.swift */; };
+		395420102BEF7B7900E5B9A0 /* JSONParserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3954200F2BEF7B7900E5B9A0 /* JSONParserViewModel.swift */; };
 		39A925342BE66553006D7290 /* SwiftTestToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A925332BE66553006D7290 /* SwiftTestToolApp.swift */; };
 		39A925362BE66553006D7290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A925352BE66553006D7290 /* ContentView.swift */; };
 		39A925382BE66555006D7290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A925372BE66555006D7290 /* Assets.xcassets */; };
@@ -49,6 +53,10 @@
 		395420012BEF731200E5B9A0 /* FileExportable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExportable.swift; sourceTree = "<group>"; };
 		395420032BEF737000E5B9A0 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 		395420052BEF737B00E5B9A0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		395420092BEF746D00E5B9A0 /* JSONParserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserView.swift; sourceTree = "<group>"; };
+		3954200B2BEF749300E5B9A0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3954200D2BEF762700E5B9A0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3954200F2BEF7B7900E5B9A0 /* JSONParserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserViewModel.swift; sourceTree = "<group>"; };
 		39A925302BE66553006D7290 /* SwiftTestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A925332BE66553006D7290 /* SwiftTestToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestToolApp.swift; sourceTree = "<group>"; };
 		39A925352BE66553006D7290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +135,7 @@
 				395420052BEF737B00E5B9A0 /* Service.swift */,
 				395420032BEF737000E5B9A0 /* Object.swift */,
 				39BAC0372BEF6AD60097D546 /* Constants.swift */,
+				3954200B2BEF749300E5B9A0 /* ViewModel.swift */,
 			);
 			path = BaseObjects;
 			sourceTree = "<group>";
@@ -186,6 +195,9 @@
 			children = (
 				39541FFF2BEF6D9C00E5B9A0 /* JSONParserService.swift */,
 				395420012BEF731200E5B9A0 /* FileExportable.swift */,
+				395420092BEF746D00E5B9A0 /* JSONParserView.swift */,
+				3954200D2BEF762700E5B9A0 /* File.swift */,
+				3954200F2BEF7B7900E5B9A0 /* JSONParserViewModel.swift */,
 			);
 			path = Parsers;
 			sourceTree = "<group>";
@@ -277,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3954200E2BEF762700E5B9A0 /* File.swift in Sources */,
 				3912B8CD2BE7A45400E6F866 /* ChartSamples.swift in Sources */,
 				3912B8B62BE78E1C00E6F866 /* HapticView.swift in Sources */,
+				395420102BEF7B7900E5B9A0 /* JSONParserViewModel.swift in Sources */,
 				3912B8C12BE7A41300E6F866 /* AnimatedChartViewModel.swift in Sources */,
 				39A925362BE66553006D7290 /* ContentView.swift in Sources */,
 				3912B8C72BE7A42C00E6F866 /* BaseChartModel.swift in Sources */,
@@ -293,11 +307,13 @@
 				39BAC0332BEF6AAA0097D546 /* AppLogger.swift in Sources */,
 				39A925342BE66553006D7290 /* SwiftTestToolApp.swift in Sources */,
 				395420022BEF731200E5B9A0 /* FileExportable.swift in Sources */,
+				3954200A2BEF746D00E5B9A0 /* JSONParserView.swift in Sources */,
 				39BAC03A2BEF6B120097D546 /* Log.swift in Sources */,
 				3912B8B92BE78E3000E6F866 /* BaseButton.swift in Sources */,
 				395420002BEF6D9C00E5B9A0 /* JSONParserService.swift in Sources */,
 				3912B8B32BE78C5B00E6F866 /* BarChartView.swift in Sources */,
 				3912B8C82BE7A42C00E6F866 /* ChartProtocol.swift in Sources */,
+				3954200C2BEF749300E5B9A0 /* ViewModel.swift in Sources */,
 				39BAC0382BEF6AD60097D546 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +451,7 @@
 				DEVELOPMENT_TEAM = ZH5GA3W8UP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFileProviderPresenceUsageDescription = "파일 권한요청";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,6 +482,7 @@
 				DEVELOPMENT_TEAM = ZH5GA3W8UP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFileProviderPresenceUsageDescription = "파일 권한요청";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
