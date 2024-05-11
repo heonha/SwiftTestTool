@@ -57,6 +57,7 @@
 		3954200B2BEF749300E5B9A0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		3954200D2BEF762700E5B9A0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		3954200F2BEF7B7900E5B9A0 /* JSONParserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserViewModel.swift; sourceTree = "<group>"; };
+		395420112BEF7D5100E5B9A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		39A925302BE66553006D7290 /* SwiftTestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A925332BE66553006D7290 /* SwiftTestToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestToolApp.swift; sourceTree = "<group>"; };
 		39A925352BE66553006D7290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 		39A925272BE66553006D7290 = {
 			isa = PBXGroup;
 			children = (
+				395420112BEF7D5100E5B9A0 /* README.md */,
 				39A925322BE66553006D7290 /* SwiftTestTool */,
 				39A925312BE66553006D7290 /* Products */,
 			);
