@@ -20,6 +20,11 @@ final class JSONParserViewModel: ViewModel {
     ]
     var textDocument: TextDocument = .init(text: "")
     
+    func getDefaultFileName() -> String {
+        let currentTimeString = String(format: "%.f", Date().timeIntervalSince1970 * 10)
+        return "ExportJSON-\(currentTimeString)"
+    }
+    
     func exportJSON<T: Encodable>(data: T) {
         do {
             let jsonText = try parser.encode(data)

@@ -151,6 +151,16 @@
 			path = Functions;
 			sourceTree = "<group>";
 		};
+		395420402BEF81D700E5B9A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				39541FFF2BEF6D9C00E5B9A0 /* JSONParserService.swift */,
+				395420012BEF731200E5B9A0 /* FileExportable.swift */,
+				3954200D2BEF762700E5B9A0 /* File.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		39A925272BE66553006D7290 = {
 			isa = PBXGroup;
 			children = (
@@ -195,10 +205,8 @@
 		39BAC02E2BEF60B00097D546 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
-				39541FFF2BEF6D9C00E5B9A0 /* JSONParserService.swift */,
-				395420012BEF731200E5B9A0 /* FileExportable.swift */,
+				395420402BEF81D700E5B9A0 /* Core */,
 				395420092BEF746D00E5B9A0 /* JSONParserView.swift */,
-				3954200D2BEF762700E5B9A0 /* File.swift */,
 				3954200F2BEF7B7900E5B9A0 /* JSONParserViewModel.swift */,
 			);
 			path = Parsers;

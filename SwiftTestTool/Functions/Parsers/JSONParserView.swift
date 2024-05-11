@@ -32,7 +32,8 @@ struct JSONParserView: View {
             }
             .fileExporter(isPresented: $showingExporter,
                           document: viewModel.textDocument,
-                          contentType: .json) { result in
+                          contentType: .json,
+                          defaultFilename: viewModel.getDefaultFileName()) { result in
                 switch result {
                 case .success(let url):
                     print("Saved to \(url)")
@@ -46,7 +47,8 @@ struct JSONParserView: View {
             }
             .fileExporter(isPresented: $showingExporter, 
                           document: viewModel.textDocument,
-                          contentType: .json) { result in
+                          contentType: .json,
+                          defaultFilename: viewModel.getDefaultFileName()) { result in
                 switch result {
                 case .success(let url):
                     print("Saved to \(url)")
