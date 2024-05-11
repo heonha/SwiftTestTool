@@ -18,17 +18,19 @@
 		3912B8C92BE7A42C00E6F866 /* ChartSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912B8C42BE7A42C00E6F866 /* ChartSegment.swift */; };
 		3912B8CA2BE7A42C00E6F866 /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912B8C52BE7A42C00E6F866 /* ChartType.swift */; };
 		3912B8CD2BE7A45400E6F866 /* ChartSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912B8CC2BE7A45400E6F866 /* ChartSamples.swift */; };
+		395420002BEF6D9C00E5B9A0 /* JSONParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39541FFF2BEF6D9C00E5B9A0 /* JSONParserService.swift */; };
+		395420022BEF731200E5B9A0 /* FileExportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395420012BEF731200E5B9A0 /* FileExportable.swift */; };
+		395420042BEF737000E5B9A0 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395420032BEF737000E5B9A0 /* Object.swift */; };
+		395420062BEF737B00E5B9A0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395420052BEF737B00E5B9A0 /* Service.swift */; };
 		39A925342BE66553006D7290 /* SwiftTestToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A925332BE66553006D7290 /* SwiftTestToolApp.swift */; };
 		39A925362BE66553006D7290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A925352BE66553006D7290 /* ContentView.swift */; };
 		39A925382BE66555006D7290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A925372BE66555006D7290 /* Assets.xcassets */; };
 		39A9253B2BE66555006D7290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A9253A2BE66555006D7290 /* Preview Assets.xcassets */; };
 		39A925432BE66563006D7290 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A925422BE66563006D7290 /* HapticManager.swift */; };
-		39BAC0302BEF66740097D546 /* ParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC02F2BEF66740097D546 /* ParserService.swift */; };
 		39BAC0332BEF6AAA0097D546 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC0322BEF6AAA0097D546 /* AppLogger.swift */; };
 		39BAC0352BEF6AB00097D546 /* LogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC0342BEF6AB00097D546 /* LogStore.swift */; };
 		39BAC0382BEF6AD60097D546 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC0372BEF6AD60097D546 /* Constants.swift */; };
 		39BAC03A2BEF6B120097D546 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC0392BEF6B120097D546 /* Log.swift */; };
-		39BAC03D2BEF6B610097D546 /* AnyObject+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC03C2BEF6B610097D546 /* AnyObject+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,18 +45,20 @@
 		3912B8C42BE7A42C00E6F866 /* ChartSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSegment.swift; sourceTree = "<group>"; };
 		3912B8C52BE7A42C00E6F866 /* ChartType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartType.swift; sourceTree = "<group>"; };
 		3912B8CC2BE7A45400E6F866 /* ChartSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSamples.swift; sourceTree = "<group>"; };
+		39541FFF2BEF6D9C00E5B9A0 /* JSONParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserService.swift; sourceTree = "<group>"; };
+		395420012BEF731200E5B9A0 /* FileExportable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExportable.swift; sourceTree = "<group>"; };
+		395420032BEF737000E5B9A0 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		395420052BEF737B00E5B9A0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		39A925302BE66553006D7290 /* SwiftTestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A925332BE66553006D7290 /* SwiftTestToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestToolApp.swift; sourceTree = "<group>"; };
 		39A925352BE66553006D7290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39A925372BE66555006D7290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A9253A2BE66555006D7290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39A925422BE66563006D7290 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
-		39BAC02F2BEF66740097D546 /* ParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserService.swift; sourceTree = "<group>"; };
 		39BAC0322BEF6AAA0097D546 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
 		39BAC0342BEF6AB00097D546 /* LogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStore.swift; sourceTree = "<group>"; };
 		39BAC0372BEF6AD60097D546 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		39BAC0392BEF6B120097D546 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		39BAC03C2BEF6B610097D546 /* AnyObject+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyObject+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +90,13 @@
 			path = Haptic;
 			sourceTree = "<group>";
 		};
-		3912B8B72BE78E2A00E6F866 /* UIBase */ = {
+		3912B8B72BE78E2A00E6F866 /* BaseUI */ = {
 			isa = PBXGroup;
 			children = (
 				3912B8B82BE78E3000E6F866 /* BaseButton.swift */,
 				3912B8BA2BE7901700E6F866 /* BaseNavigationLink.swift */,
 			);
-			path = UIBase;
+			path = BaseUI;
 			sourceTree = "<group>";
 		};
 		3912B8C62BE7A42C00E6F866 /* Model */ = {
@@ -117,6 +121,26 @@
 			path = AnimatedChart;
 			sourceTree = "<group>";
 		};
+		395420072BEF73E400E5B9A0 /* BaseObjects */ = {
+			isa = PBXGroup;
+			children = (
+				395420052BEF737B00E5B9A0 /* Service.swift */,
+				395420032BEF737000E5B9A0 /* Object.swift */,
+				39BAC0372BEF6AD60097D546 /* Constants.swift */,
+			);
+			path = BaseObjects;
+			sourceTree = "<group>";
+		};
+		395420082BEF73F600E5B9A0 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				3912B8B12BE78C4700E6F866 /* Chart */,
+				3912B8B42BE78E0000E6F866 /* Haptic */,
+				39BAC02E2BEF60B00097D546 /* Parsers */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
 		39A925272BE66553006D7290 = {
 			isa = PBXGroup;
 			children = (
@@ -136,15 +160,13 @@
 		39A925322BE66553006D7290 /* SwiftTestTool */ = {
 			isa = PBXGroup;
 			children = (
-				39BAC03B2BEF6B270097D546 /* Extensions */,
-				39BAC0362BEF6AC90097D546 /* Constant */,
-				39BAC0312BEF6AA50097D546 /* Logger */,
 				39A925332BE66553006D7290 /* SwiftTestToolApp.swift */,
 				39A925352BE66553006D7290 /* ContentView.swift */,
-				3912B8B42BE78E0000E6F866 /* Haptic */,
-				39BAC02E2BEF60B00097D546 /* Parsers */,
-				3912B8B12BE78C4700E6F866 /* Chart */,
-				3912B8B72BE78E2A00E6F866 /* UIBase */,
+				3912B8B72BE78E2A00E6F866 /* BaseUI */,
+				395420082BEF73F600E5B9A0 /* Functions */,
+				395420072BEF73E400E5B9A0 /* BaseObjects */,
+				39BAC03B2BEF6B270097D546 /* Extensions */,
+				39BAC0312BEF6AA50097D546 /* Logger */,
 				39A925372BE66555006D7290 /* Assets.xcassets */,
 				39A925392BE66555006D7290 /* Preview Content */,
 			);
@@ -162,7 +184,8 @@
 		39BAC02E2BEF60B00097D546 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
-				39BAC02F2BEF66740097D546 /* ParserService.swift */,
+				39541FFF2BEF6D9C00E5B9A0 /* JSONParserService.swift */,
+				395420012BEF731200E5B9A0 /* FileExportable.swift */,
 			);
 			path = Parsers;
 			sourceTree = "<group>";
@@ -177,18 +200,9 @@
 			path = Logger;
 			sourceTree = "<group>";
 		};
-		39BAC0362BEF6AC90097D546 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				39BAC0372BEF6AD60097D546 /* Constants.swift */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
 		39BAC03B2BEF6B270097D546 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				39BAC03C2BEF6B610097D546 /* AnyObject+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -264,22 +278,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				3912B8CD2BE7A45400E6F866 /* ChartSamples.swift in Sources */,
-				39BAC03D2BEF6B610097D546 /* AnyObject+Ext.swift in Sources */,
 				3912B8B62BE78E1C00E6F866 /* HapticView.swift in Sources */,
-				39BAC0302BEF66740097D546 /* ParserService.swift in Sources */,
 				3912B8C12BE7A41300E6F866 /* AnimatedChartViewModel.swift in Sources */,
 				39A925362BE66553006D7290 /* ContentView.swift in Sources */,
 				3912B8C72BE7A42C00E6F866 /* BaseChartModel.swift in Sources */,
+				395420042BEF737000E5B9A0 /* Object.swift in Sources */,
 				3912B8BF2BE7A3F800E6F866 /* AnimatedChartView.swift in Sources */,
 				39A925432BE66563006D7290 /* HapticManager.swift in Sources */,
 				3912B8C92BE7A42C00E6F866 /* ChartSegment.swift in Sources */,
 				39BAC0352BEF6AB00097D546 /* LogStore.swift in Sources */,
+				395420062BEF737B00E5B9A0 /* Service.swift in Sources */,
 				3912B8CA2BE7A42C00E6F866 /* ChartType.swift in Sources */,
 				3912B8BB2BE7901700E6F866 /* BaseNavigationLink.swift in Sources */,
 				39BAC0332BEF6AAA0097D546 /* AppLogger.swift in Sources */,
 				39A925342BE66553006D7290 /* SwiftTestToolApp.swift in Sources */,
+				395420022BEF731200E5B9A0 /* FileExportable.swift in Sources */,
 				39BAC03A2BEF6B120097D546 /* Log.swift in Sources */,
 				3912B8B92BE78E3000E6F866 /* BaseButton.swift in Sources */,
+				395420002BEF6D9C00E5B9A0 /* JSONParserService.swift in Sources */,
 				3912B8B32BE78C5B00E6F866 /* BarChartView.swift in Sources */,
 				3912B8C82BE7A42C00E6F866 /* ChartProtocol.swift in Sources */,
 				39BAC0382BEF6AD60097D546 /* Constants.swift in Sources */,
