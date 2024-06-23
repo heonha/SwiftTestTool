@@ -12,6 +12,13 @@ struct ContentView: View {
         
         NavigationStack {
             List {
+                
+                Section("Alert") {
+                    BaseNaviLink("Toast") {
+                        ToastTestView()
+                    }
+                }
+                
                 Section("UX") {
                     BaseNaviLink("Haptic") {
                         HapticView()
@@ -30,8 +37,8 @@ struct ContentView: View {
                     }
                 }
             }
+            .navigationTitle("Swift Test Tools")
         }
-        .navigationTitle("Tools")
     }
     
 }

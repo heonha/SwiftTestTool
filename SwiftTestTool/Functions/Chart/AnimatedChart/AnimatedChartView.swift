@@ -85,7 +85,7 @@ extension ChartView {
 
         Chart {
             ForEach(viewModel.chartPlaceholder) { item in
-                // MARK: Graphs
+                // MARK: Graphsanimate
                 if isLineGraph {
                     LineMark(
                         x: .value("Hour", item.date, unit: targetComponent),

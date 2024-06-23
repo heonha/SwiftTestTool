@@ -31,10 +31,14 @@
 		39A925382BE66555006D7290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A925372BE66555006D7290 /* Assets.xcassets */; };
 		39A9253B2BE66555006D7290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A9253A2BE66555006D7290 /* Preview Assets.xcassets */; };
 		39A925432BE66563006D7290 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A925422BE66563006D7290 /* HapticManager.swift */; };
+		39B768612C211F3A00B7D796 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B768602C211F3A00B7D796 /* Toast.swift */; };
+		39B768632C21226B00B7D796 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B768622C21226B00B7D796 /* ToastView.swift */; };
 		39BAC0332BEF6AAA0097D546 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC0322BEF6AAA0097D546 /* AppLogger.swift */; };
 		39BAC0352BEF6AB00097D546 /* LogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC0342BEF6AB00097D546 /* LogStore.swift */; };
 		39BAC0382BEF6AD60097D546 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC0372BEF6AD60097D546 /* Constants.swift */; };
 		39BAC03A2BEF6B120097D546 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BAC0392BEF6B120097D546 /* Log.swift */; };
+		39EF804D2C27D78E0012A298 /* ToastModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF804C2C27D78E0012A298 /* ToastModifier.swift */; };
+		39EF804F2C27D8F20012A298 /* ToastTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF804E2C27D8F20012A298 /* ToastTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,10 +68,14 @@
 		39A925372BE66555006D7290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A9253A2BE66555006D7290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39A925422BE66563006D7290 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		39B768602C211F3A00B7D796 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		39B768622C21226B00B7D796 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		39BAC0322BEF6AAA0097D546 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
 		39BAC0342BEF6AB00097D546 /* LogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStore.swift; sourceTree = "<group>"; };
 		39BAC0372BEF6AD60097D546 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		39BAC0392BEF6B120097D546 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		39EF804C2C27D78E0012A298 /* ToastModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModifier.swift; sourceTree = "<group>"; };
+		39EF804E2C27D8F20012A298 /* ToastTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,8 @@
 		395420082BEF73F600E5B9A0 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				39B7685F2C211F2600B7D796 /* Toast */,
+				39D672472BF4213C00890C0E /* Shortcuts */,
 				3912B8B12BE78C4700E6F866 /* Chart */,
 				3912B8B42BE78E0000E6F866 /* Haptic */,
 				39BAC02E2BEF60B00097D546 /* Parsers */,
@@ -202,6 +212,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		39B7685F2C211F2600B7D796 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				39EF804E2C27D8F20012A298 /* ToastTestView.swift */,
+				39B768602C211F3A00B7D796 /* Toast.swift */,
+				39B768622C21226B00B7D796 /* ToastView.swift */,
+				39EF804C2C27D78E0012A298 /* ToastModifier.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
 		39BAC02E2BEF60B00097D546 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +248,13 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		39D672472BF4213C00890C0E /* Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shortcuts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +335,7 @@
 				39A925362BE66553006D7290 /* ContentView.swift in Sources */,
 				3912B8C72BE7A42C00E6F866 /* BaseChartModel.swift in Sources */,
 				395420042BEF737000E5B9A0 /* Object.swift in Sources */,
+				39B768632C21226B00B7D796 /* ToastView.swift in Sources */,
 				3912B8BF2BE7A3F800E6F866 /* AnimatedChartView.swift in Sources */,
 				39A925432BE66563006D7290 /* HapticManager.swift in Sources */,
 				3912B8C92BE7A42C00E6F866 /* ChartSegment.swift in Sources */,
@@ -314,7 +343,10 @@
 				395420062BEF737B00E5B9A0 /* Service.swift in Sources */,
 				3912B8CA2BE7A42C00E6F866 /* ChartType.swift in Sources */,
 				3912B8BB2BE7901700E6F866 /* BaseNavigationLink.swift in Sources */,
+				39EF804D2C27D78E0012A298 /* ToastModifier.swift in Sources */,
 				39BAC0332BEF6AAA0097D546 /* AppLogger.swift in Sources */,
+				39EF804F2C27D8F20012A298 /* ToastTestView.swift in Sources */,
+				39B768612C211F3A00B7D796 /* Toast.swift in Sources */,
 				39A925342BE66553006D7290 /* SwiftTestToolApp.swift in Sources */,
 				395420022BEF731200E5B9A0 /* FileExportable.swift in Sources */,
 				3954200A2BEF746D00E5B9A0 /* JSONParserView.swift in Sources */,
@@ -467,7 +499,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,7 +530,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
